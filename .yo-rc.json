@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "From Fragile to Agile",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "perrupa",
+    "githubRepository": "fragile-to-agile"
+  }
+}
