@@ -2,6 +2,32 @@
 
 ---
 
+# Step 9
+Pattern Library 2: Electric Boogaloo
+	- Sandbox for component development
+	- Isolated dev environment
+		- know all dependencies
+
+# Step 10
+JS - jQuery to Backbone
+	- Give your JS some structure
+
+# Step 11
+JS - Separate declaration from invocation 
+	- JS reuse no longer a problem
+	- Build System
+
+# Step 12
+JS Separate behavior from style
+	- classnames vs attributes
+	".js-behavior" vs "[pfa-behavior]"
+
+# Step 13
+JS events over callbacks
+	- No one needs to be listening.
+
+---
+
 ## jQuery Soup
 
 ```

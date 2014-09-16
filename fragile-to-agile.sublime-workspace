@@ -227,13 +227,112 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "slides/intro.md",
+			"settings":
+			{
+				"buffer_size": 295,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/source/theme.scss",
+			"settings":
+			{
+				"buffer_size": 2566,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "slides/style.md",
+			"settings":
+			{
+				"buffer_size": 705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "slides/list.json",
+			"settings":
+			{
+				"buffer_size": 47,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/_index.html",
+			"settings":
+			{
+				"buffer_size": 4225,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fragile-to-agile.sublime-project",
+			"settings":
+			{
+				"buffer_size": 273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower_components/reveal.js/css/theme/source/simple.scss",
+			"settings":
+			{
+				"buffer_size": 1161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n\n\n# Intro\n\n### Start with a messy system\n\n### Add sass/less/stylus\n\n- instant minification\n- all future benefits\n- add compass/bourbon/etc or polyfiller\n\n### Start documenting patterns/components _ASAP_ in a library\n\n- build new features in your library, so they're documented\n- find and remove duplication/similarities\n\n### Time to clean up CSS\n\n- Get some grids.\n- Remove context from your styles\n	- widths\n	- floats\n	- positioning\n	- etc...\n\n### Pick a naming convention\n- BEM is sweet\n- Name based on 'behaviour' and/or 'representation'\n	- not it's 'contents' or 'appearance'\n	- what is big and blue today, may be small and green a year from now.\n- Eliminate as much specifity as possible\n	- no element or ID selectors\n	- Specificity wars are wars (and war is bad)\n\n\n### Get some OOCSS going on \n\n- create helper classes for most common css behaviours (paticularly, layout)\n	- floats\n	- clearfix\n	- display/positioning\n\n\n### Tidy up your JS a bit\n\n- Absolutely avoid mixing script and code.\n- jQuery soup -> Backbone views and models\n- Separate JS definitions declarations from invocation\n- Adopt a build system\n",
+			"file": "talk-progression.md",
+			"file_size": 1114,
+			"file_write_time": 130552654120000000,
+			"settings":
+			{
+				"buffer_size": 1117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "slides/javascript.md",
+			"settings":
+			{
+				"buffer_size": 814,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/Build Systems/node.sublime-build",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 270.0,
 		"selected_items":
 		[
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"gsta",
+				"Git: Status"
+			],
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"keys",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
 			[
 				"REM",
 				"Package Control: Remove Package"
@@ -261,10 +360,6 @@
 			[
 				"synhtml",
 				"Set Syntax: HTML"
-			],
-			[
-				"gsta",
-				"Git: Status"
 			],
 			[
 				"add",
@@ -395,10 +490,6 @@
 				"Git: Status"
 			],
 			[
-				"reind",
-				"Indentation: Reindent Lines"
-			],
-			[
 				"json",
 				"Set Syntax: JSON"
 			],
@@ -467,16 +558,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"keys",
-				"Preferences: Key Bindings - User"
-			],
-			[
 				"upper",
 				"Convert Case: Upper Case"
-			],
-			[
-				"key",
-				"Preferences: Key Bindings - User"
 			],
 			[
 				"rby",
@@ -557,10 +640,6 @@
 			[
 				"javas",
 				"Set Syntax: JavaScript"
-			],
-			[
-				"push",
-				"Git: Push"
 			],
 			[
 				"rub",
@@ -741,13 +820,9 @@
 			[
 				"xdgbre",
 				"Xdebug: Add/Remove Breakpoint"
-			],
-			[
-				"xde",
-				"Xdebug: Start Debugging"
 			]
 		],
-		"width": 561.0
+		"width": 462.0
 	},
 	"console":
 	{
@@ -776,15 +851,36 @@
 	"expanded_folders":
 	[
 		"/www/fragile-to-agile",
-		"/www/fragile-to-agile/templates"
+		"/www/fragile-to-agile/bower_components",
+		"/www/fragile-to-agile/bower_components/reveal.js",
+		"/www/fragile-to-agile/bower_components/reveal.js/css",
+		"/www/fragile-to-agile/bower_components/reveal.js/css/theme",
+		"/www/fragile-to-agile/bower_components/reveal.js/css/theme/source",
+		"/www/fragile-to-agile/bower_components/reveal.js/css/theme/template"
 	],
 	"file_history":
 	[
-		"/www/fragile-to-agile/fragile-to-agile.sublime-project",
+		"/www/fragile-to-agile/package.json",
+		"/www/fragile-to-agile/bower.json",
+		"/www/fragile-to-agile/.jshintrc",
+		"/www/fragile-to-agile/slides/list.json",
+		"/Users/chris.marlow/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/chris.marlow/Dropbox/Talks/Tech Talk/talk-description.md",
+		"/www/fragile-to-agile/.editorconfig",
+		"/www/fragile-to-agile/css/source/theme.scss",
+		"/Users/chris.marlow/Dropbox/Talks/JS Talking points.txt",
+		"/www/fragile-to-agile/templates/_index.html",
+		"/www/fragile-to-agile/slides/javascript.md",
+		"/Users/chris.marlow/Library/Application Support/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/Users/chris.marlow/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/Users/chris.marlow/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/chris.marlow/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/www/fragile-to-agile/slides/intro.md",
+		"/www/fragile-to-agile/js/loadhtmlslides.js",
+		"/www/fragile-to-agile/fragile-to-agile.sublime-project",
+		"/www/fragile-to-agile/.gitignore",
 		"/www/fragile-to-agile/node_modules/grunt-contrib-connect/node_modules/connect/lib/proto.js",
 		"/www/fragile-to-agile/node_modules/grunt/node_modules/glob/test/pause-resume.js",
-		"/www/fragile-to-agile/package.json",
 		"/dev-git/platform-a/.vagrant/machines/hopper-v1.1/virtualbox/action_set_name",
 		"/dev-git/platform-a/sql/alter.sql",
 		"/dev-git/platform-a/src/system/application/config/mapping/concat_resource.json",
@@ -891,27 +987,11 @@
 		"/dev-git/platform-a/src/system/helpers/array_helper.php",
 		"/dev-git/platform-a/vagrant/guest-generated/hosts",
 		"/dev-git/platform-a/src/system/scaffolding/views/header.php",
-		"/dev-git/platform-a/src/resources/sass/components/_tabs.scss",
-		"/dev-git/platform-a/src/system/application/views/desktop/default_template.php",
-		"/dev-git/platform-a/src/system/application/controllers/recent_activity.php",
-		"/dev-git/platform-a/src/system/application/views/desktop/viewlets/header_view.php",
-		"/dev-git/platform-a/src/resources/sass/platform_default/_platform_default_override.scss",
-		"/dev-git/platform-a/src/system/application/libraries/REST_Controller.php",
-		"/dev-git/platform-a/src/system/application/helpers/yn_column_helper.php",
-		"/dev-git/platform-a/src/resources/templates/mobile/pattern_library/demo/demoHelloTemplate.handlebars",
-		"/dev-git/platform-a/src/system/application/helpers/template_helper.php",
-		"/dev-git/platform-a/src/resources/templates/mobile/profile/profileHeaderTemplate.handlebars",
-		"/dev-git/platform-a/src/system/application/libraries/Template.php",
-		"/dev-git/platform-a/src/system/application/views/mobile/default_template.php",
-		"/dev-git/platform-a/src/system/application/libraries/data/DataException.php",
-		"/dev-git/platform-a/vagrant/devdb.sql",
-		"/dev-git/platform-a/src/system/application/views/desktop/pattern_library/reputation/tabs.php",
-		"/dev-git/platform-a/src/resources/sass/desktop/styles/plugins/jquery.achievers.databar.scss",
-		"/dev-git/platform-a/src/system/application/views/desktop/approval_response_form_view.php"
+		"/dev-git/platform-a/src/resources/sass/components/_tabs.scss"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -1033,6 +1113,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"word_separators",
+			"moon",
+			"strike",
+			"theme",
+			"representation",
+			"contents",
+			"(",
+			"sass",
+			"elements",
+			"Th",
+			"strikethrough",
+			"css",
+			"function",
+			"displayControls",
+			"		'",
+			"function",
+			"$(",
+			"userAction",
+			"some click",
+			".",
+			"click",
+			"$",
+			"---",
+			"}",
+			"/*",
+			"main",
+			"rel",
+			"project_folder",
+			"def",
+			"default_root",
+			"args",
+			"\"",
+			"focus_neighboring_group",
+			"n",
+			"new",
+			"true",
 			"handlebars",
 			"conca",
 			"JST.js",
@@ -1124,43 +1240,7 @@
 			"news",
 			"postcardImage",
 			"is_postcard_event_type",
-			"img",
-			"postcardImage",
-			"$event['postcardImage']",
-			"$event['postcardImage'])",
-			"> 310",
-			"newsfeedPostcardImageHolder",
-			"$this->news_feed_model->is_event_type_one_of",
-			"<?if($this->news_feed_model->is_event_type_one_of",
-			"dont show the details section if no details",
-			"$this->CI->load->model(\"group_model\"",
-			"group_model",
-			"data-comment-text",
-			"HEAD",
-			"$newline",
-			"API_UNLIMITED",
-			"manual_override.css",
-			"whoLikes",
-			"whoLikesWrapper",
-			"whoLikesHolder",
-			"who_lik",
-			"ifCond",
-			"<<<",
-			"flat",
-			"cc_overlay",
-			"<<<<<",
-			"<<<<",
-			"nbsp",
-			"$inputSizes",
-			"width",
-			"$who_likes",
-			"whoLikesWrapper",
-			"whoLikesHolder",
-			"printWithContent",
-			"like",
-			"(",
-			"$who_likes",
-			"peer_to_peer_public_view_print"
+			"img"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1179,14 +1259,283 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "slides/intro.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"sorttabs_lastactivated": 1410791722.98,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/source/theme.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2203,
+								2203
+							]
+						],
+						"settings":
+						{
+							"sorttabs_lastactivated": 1410732299.91,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 731.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "slides/style.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								705,
+								705
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"sorttabs_lastactivated": 1410793877.83,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 248.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "slides/list.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"sorttabs_lastactivated": 1410796143.93,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/_index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2606,
+								2606
+							]
+						],
+						"settings":
+						{
+							"sorttabs_lastactivated": 1410732344.0,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1253.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "fragile-to-agile.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"sorttabs_lastactivated": 1410732181.65,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "bower_components/reveal.js/css/theme/source/simple.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"sorttabs_lastactivated": 1410732177.64,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "talk-progression.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"sorttabs_lastactivated": 1410793866.81,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "slides/javascript.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								809,
+								809
+							]
+						],
+						"settings":
+						{
+							"sorttabs_lastactivated": 1410721402.09,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 44.0
 	},
 	"input":
 	{
@@ -1246,7 +1595,7 @@
 	"project": "fragile-to-agile.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1254,6 +1603,42 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"json",
+				"slides/list.json"
+			],
+			[
+				"int",
+				"slides/intro.md"
+			],
+			[
+				"ind",
+				"templates/_index.html"
+			],
+			[
+				"theme",
+				"css/source/theme.scss"
+			],
+			[
+				"the",
+				"css/source/theme.scss"
+			],
+			[
+				"st",
+				"css/source/theme.scss"
+			],
+			[
+				"styl",
+				"slides/style.md"
+			],
+			[
+				"jav",
+				"slides/javascript.md"
+			],
+			[
+				"list",
+				"slides/list.json"
+			],
 			[
 				"assetman",
 				"src/system/application/libraries/asset_management.php"
@@ -1729,42 +2114,6 @@
 			[
 				"gitig",
 				".gitignore"
-			],
-			[
-				"boostli",
-				"src/system/application/libraries/boost_library.php"
-			],
-			[
-				"orderhel",
-				"src/system/application/helpers/order_helper.php"
-			],
-			[
-				"src/system/application/views/desktop/old_default_template.php",
-				"src/system/application/views/desktop/old_default_template.php"
-			],
-			[
-				"plugins/userselect",
-				"src/resources/js/dom/plugins/userselect.js"
-			],
-			[
-				"selfenvi",
-				"src/resources/js/views/desktop/self_enrollment_view.js"
-			],
-			[
-				"defte",
-				"src/system/application/views/desktop/default_template.php"
-			],
-			[
-				"assman",
-				"src/system/application/libraries/asset_management.php"
-			],
-			[
-				"src/resources/sass/components/_statusbar.scss",
-				"src/resources/sass/components/_statusbar.scss"
-			],
-			[
-				"platdefcol",
-				"src/resources/sass/platform_default/_platform_default_colors_vars.scss"
 			]
 		],
 		"width": 0.0
@@ -1783,9 +2132,13 @@
 	},
 	"select_symbol":
 	{
-		"height": 28.0,
+		"height": 138.0,
 		"selected_items":
 		[
+			[
+				"",
+				"callback"
+			],
 			[
 				"get_nested_value",
 				"get_nested_value"
@@ -1879,11 +2232,15 @@
 				"getResource"
 			]
 		],
-		"width": 777.0
+		"width": 378.0
 	},
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
 	},
 	"show_minimap": false,
 	"show_open_files": true,

@@ -12,7 +12,7 @@
 			[
 				"js",
 				".sass-cache",
-				"bower_components",
+				// "bower_components",
 				"node_modules"
 			],
 			"follow_symlinks": true,
