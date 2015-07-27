@@ -1,5 +1,10 @@
 [
 	"intro.md",
-	"style.md",
-	"javascript.md"
+	"problem-intro.md",
+
+	"communication.md",
+	"modularity.md",
+	"tech-debt.md",
+
+	"outro.md"
 ]

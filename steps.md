@@ -14,10 +14,10 @@ Pattern Library
 Specificity
 	- Don't start wars!
 
-# Step 4
+<!-- # Step 4
 OOCSS - decouple css from html (no element selectors/nesting)
 	- because we only ever use 1 class...
-
+ -->
 # Step 5
 OOCSS - Separate layout from content
 	- make all blocks/components *block* or *inline block*

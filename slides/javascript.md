@@ -2,29 +2,15 @@
 
 ---
 
-# Step 9
-Pattern Library 2: Electric Boogaloo
-	- Sandbox for component development
-	- Isolated dev environment
-		- know all dependencies
+# Pattern Library 2:
+<br>
+### Electric Boogaloo
 
-# Step 10
-JS - jQuery to Backbone
-	- Give your JS some structure
+---
 
-# Step 11
-JS - Separate declaration from invocation 
-	- JS reuse no longer a problem
-	- Build System
-
-# Step 12
-JS Separate behavior from style
-	- classnames vs attributes
-	".js-behavior" vs "[pfa-behavior]"
-
-# Step 13
-JS events over callbacks
-	- No one needs to be listening.
+- Sandbox for component development
+- Isolated dev environment
+	- you know all your dependencies
 
 ---
 
@@ -76,3 +62,26 @@ var MyForm = Backbone.View.extend({
 
 new MyForm({ el: "#myForm" });
 ```
+
+---
+
+
+# Separate declaration from invocation 
+<br>
+### JS reuse no longer a problem
+
+---
+
+# Separate behavior from style
+
+---
+
+```
+// Can you spot the dependency?
+$(".searchArea").click();
+```
+
+# Step 13
+JS events over callbacks
+	- No one needs to be listening.
+

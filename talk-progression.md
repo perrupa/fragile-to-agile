@@ -5,6 +5,52 @@
 
 ### Start with a messy system
 
+
+
+# Communication
+
+	## Pattern Library (documentation)
+		### dev-dev
+		### dev-designer
+		### qa-designer
+
+	## BEM (Naming Convention)
+		### Common language
+		### convention/framework
+
+
+
+# Modularity
+
+	## OOCSS
+		### Specificity
+		### Grids
+		### Context-free components
+
+	## Pattern Library as a sandbox
+		### Dependency Managmnt
+
+	## Backbone
+		## Events vs Callbacks
+
+
+	
+# Technical Debt
+
+	## SASS
+
+	## Documentation will identify duplication
+		### patt lib
+
+	## Messy Codebase
+		## Dec vs invoc
+		## Build system
+		### SASS imports
+		### SMACSS?
+
+
+
+
 ### Add sass/less/stylus
 
 - instant minification

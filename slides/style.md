@@ -1,3 +1,15 @@
+# Style
+
+---
+
+> __"<del>Javascript</del> CSS doesn't suck,__
+> 
+> __you're just doing it wrong."__
+>
+> - Douglas Crockford
+
+---
+
 # Preprocess
 
 ---
@@ -26,41 +38,18 @@ Which one doesn't really matter.
 
 ---
 
-# Specificity
+## Self-executing and documenting
+
+<pre><code><div class="codeExample">
+	<input type="text" class="userSelect">
+	<script>
+		require(["userSelect"], function( UserSelect ){
+			new UserSelect({ el: $(".userSelect") });
+		}); // I'll explain this later..
+	</script>
+</div>
+</code></pre>
 
 ---
 
-There are 3 types of specificity and one 'trump'
-
-- elements
-- classes
-- IDs
-- important!
-
----
-
-
-
----
-
-### Things to keep in mind
-
-- Consistency across your platform
-- Components should be context-free
-
----
-
-## What is context free?
-
-- No widths
-- No layout (positioning, floats, etc...)
-
----
-
-# Object Oriented CSS
-
-> __"<del>Javascript</del> CSS doesn't suck,__
-> 
-> __you're just doing it wrong."__
->
-> - Douglas Crockford
+## Now we have a good starting point
